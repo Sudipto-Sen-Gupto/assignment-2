@@ -48,7 +48,9 @@ color: black;
 .text-gray2{
     color: #8987A1;
 }
-
+.center{
+    text-align: center;
+}
 .noto-serif{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -56,6 +58,9 @@ color: black;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+.p-font{
+     font-size: 22px;
 }
 
 .banner{
@@ -82,6 +87,53 @@ color: black;
     width: 50%;
 }
 
+
+.section-side{
+    
+    width: 80%;
+    margin: 120px auto;
+
+}
+
+
+.title{
+    text-align: center;
+}
+.section1-header{
+    font-size: 50px;
+}
+.des{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+.flower-price{
+margin-top: 50px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+
+}
+.flower-title{
+    width: 500px;
+   
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+.flower-title> h1{
+  font-size: 22px;
+}
+.flower-title img{
+     width:500px ;
+}
+.btn-primary{
+    width: 500px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #E95A08;
+    color: white;
+    padding: 20px;
+}
 @media screen and (max-width:576px) {
  
     body{
@@ -114,5 +166,25 @@ color: black;
     }
     .banner img{
         width: 100%;
+    }
+
+    .section-side{
+        margin: 5px;
+    }
+    .des{
+        width: 100%;
+    }
+        .flower-price{
+
+            grid-template-columns: repeat(2,1fr);
+        }
+    .flower-title{
+         width: 250px;
+    }
+    .flower-title img{
+          width: 250px;
+    }
+    .btn-primary{
+         width: 250px;
     }
 }
