@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     margin-top: 30px;
 }
 .header-portion{
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
     
 }
@@ -19,12 +20,12 @@ body{
 
 .nav-links{
 display: flex;
-gap: 48px;
+gap: 3rem;
 }
  
 .items{
     display: flex;
-    gap: 48px;
+    gap: 3rem;
 
   }
 .nav-items{
@@ -33,7 +34,7 @@ list-style-type:none;
 
 .nav-link{
 text-decoration: none;
-font-size: 24px;
+font-size: 1.5rem;
 color: black;
 }
 
@@ -42,26 +43,43 @@ color: black;
     color: #E95A08;
 }
 .text-gray{
-    color: #000000;
+    color: rgba(0, 0, 0, 0.5);
+}
+.text-gray2{
+    color: #8987A1;
+}
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .banner{
-    width: 95%;
+    width: 100%;
+     margin-top:282px;
      display: flex;
+    
+      
 }
 
 .banner-sizing{
-   
+   width: 100%;
 }
 .banner-title{
-     font-size: 65px;
+     font-size: 5rem;
      font-weight: 600;
+    
 }
 .banner-des{
-
+   width: 40%;
+   font-size: 22px;
 }
 .banner img{
-    width: 100%;
+    width: 50%;
 }
 
 @media screen and (max-width:576px) {
@@ -70,7 +88,9 @@ color: black;
       
 
     }
-    
+    .header-portion{
+        width: 95%;
+    }
     .navigation{
        
          
@@ -79,5 +99,20 @@ color: black;
     .items{
         display: none;
     }
-
+ 
+    .banner{
+        margin-top:4rem ;
+        flex-direction:column-reverse;
+       
+    }
+    .banner-title{
+          font-size:2rem;
+    }
+    .banner-des{
+          width: 100%;
+          
+    }
+    .banner img{
+        width: 100%;
+    }
 }
