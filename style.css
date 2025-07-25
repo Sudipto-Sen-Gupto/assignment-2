@@ -186,36 +186,6 @@ gap: 20px;
     text-align: center;
     width: 70%;
 }
-/* .plant-variety{
-    display: flex;
-    gap: 20px;
-}
-.plants{
-    height: 30%;
-    width: 30%;
-}
-.bloom-plant{
-     background: url('B12A02-Responsive-Flowers/assets/deal-bloom.png')  no-repeat  ;
-     background-size: cover;
-     height:201px;
-     width:367px;
-    filter: drop-shadow(5px 5px 10px rgba(22, 15, 15, 0.5),);
-
-     
-}
-.ana-plant{
-background: url('B12A02-Responsive-Flowers/assets/deal-ana.png')  no-repeat  ;
-     background-size: cover;
-     height:201px ;
-     width:367px ;
-    filter: drop-shadow(5px 5px 10px rgba(22, 15, 15, 0.5),);
-}
-.zabo-plant{
-      background-image: url('B12A02-Responsive-Flowers/assets/deal-zabo.png') no-repeat;
-      background-size: cover;
-      height:250px;
-      width:600px;
-} */
 
 
 
@@ -251,13 +221,6 @@ background: url('B12A02-Responsive-Flowers/assets/deal-ana.png')  no-repeat  ;
       margin-bottom: 20px;
     }
 
-
-    /* .title {
-      position: relative; 
-      text-align: center;
-      z-index: 1;
-    } */
-
     .title p{
       margin: 0;
       font-size: 20px;
@@ -276,6 +239,50 @@ background: url('B12A02-Responsive-Flowers/assets/deal-ana.png')  no-repeat  ;
     .title-large a{
         text-align: center;
     }
+
+    
+       .section4{
+        width: 60%;
+        margin: 0 auto;
+        height: 533px; 
+       }
+    .searchbar{
+                background-image: url('./B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+        background-repeat: no-repeat;
+     
+        width: 100%;
+        /* height: 100%; */
+         padding: 200px 200px;
+          background-size:100% auto;
+          
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-sizing: border-box;
+    }
+      .section4-title{
+        color: white;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+      }
+      .section4-title h1{
+        font-size: 50px;
+        text-align: ;
+      }
+      input[type="email"]{
+        font-size: 30px;
+        padding: 15px;
+        width: 60%;
+      }
+       .section4-title button{
+        background-color: #E95A08;
+        padding: 15px;
+        font-size: 30px;
+        color: white;
+       }
+
+
 @media screen and (max-width:576px) {
  
     body{
@@ -370,4 +377,40 @@ background: url('B12A02-Responsive-Flowers/assets/deal-ana.png')  no-repeat  ;
      .title-large{
         font-size: 22px;
      }
+
+     .section4{
+        width: 100%;
+       
+     }
+     
+
+
+.searchbar {
+    
+    flex-direction: ;
+    background-size: 100% cover;
+   /* height: 100% ; */
+   padding: 30px 30px;
+    
+  }
+
+  .section4-title h1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  input[type="email"] {
+    font-size: 18px;
+    padding: 5px;
+    /* width: 100%; */
+    margin-bottom: 0px;
+  }
+
+  .section4-title button {
+    font-size: 18px;
+    padding: 5px;
+    /* width: 100%; */
+  }
 }
+
+     
