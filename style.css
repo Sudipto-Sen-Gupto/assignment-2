@@ -286,7 +286,7 @@ gap: 20px;
 
        .footsite{
         width: 60%;
-        margin: 150px auto;
+        margin: 50px auto;
         display: grid;
         grid-template-columns: repeat(4,1fr);
        }
